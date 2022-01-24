@@ -8,8 +8,6 @@ description: A knowledge-sharing platform
 
 _Ravi Kumar_  
 _Jan 24, 2022_  
-  
-# Group array of JavaScript objects by keys
 
 This is implementation to group by single/multiple properties in one.
 
