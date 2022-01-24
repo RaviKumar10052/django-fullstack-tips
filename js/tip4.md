@@ -15,7 +15,7 @@ This is implementation to group by single/multiple properties in one.
 
 ## Implementation
 
-js
+```
 const groupBy = (keys,array) =>
     array.reduce((objectsByKeyValue, obj) => {
       const value = keys.map(key => obj[key]).join('-');
@@ -32,11 +32,12 @@ const groupByKeyValue= (groupedArray)=>{
     }
     return answerArray;
 };
+```
 
 
 ## Usage
 
-js
+```
 const cars = [
   { brand: 'Peugot', produced: '2021', color: 'yellow' },
   { brand: 'Audi', produced: '2016', color: 'black' },
@@ -57,8 +58,10 @@ console.log("By Brand \n",groupByBrand);
 console.log("By Color \n",groupByColor);
 console.log("By Year \n",groupByYear);
 console.log("By Brand And Year \n",groupByBrandAndYear)
+```
 
 ### Output
+```
 By Brand 
  [ { brand: 'Peugot', produced: '2021', color: 'yellow' },
   { brand: 'Peugot', produced: '2018', color: 'white' },
@@ -95,3 +98,4 @@ By Brand And Year
   { brand: 'Audi', produced: '2017', color: 'white' },
   { brand: 'Peugot', produced: '2018', color: 'white' },
   { brand: 'Ford', produced: '2020', color: 'blue' } ]
+```
