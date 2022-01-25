@@ -24,3 +24,4 @@ description: A knowledge-sharing platform
 ## General
 
 - [What are BCP 47 language tags?](./general/tip1.md)
+- [What is BEM?](./general/tip2.md)

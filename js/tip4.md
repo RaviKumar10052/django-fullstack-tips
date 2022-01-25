@@ -96,5 +96,4 @@ By Brand And Year
   { brand: 'Audi', produced: '2017', color: 'white' },
   { brand: 'Peugot', produced: '2018', color: 'white' },
   { brand: 'Ford', produced: '2020', color: 'blue' } ]
-
 ```
